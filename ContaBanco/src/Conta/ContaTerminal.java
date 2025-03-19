@@ -6,9 +6,6 @@ public class ContaTerminal {
 
 	public static void main(String[] args) {
 		
-		// Atributos 
-		 
-		
 		Scanner entrada = new Scanner(System.in);
 		
 		

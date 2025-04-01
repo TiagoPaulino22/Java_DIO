@@ -33,7 +33,7 @@ public class ContaTerminal {
 		
 		System.out.println("Olá," + nomeCliente.toUpperCase() + ". " + "Obrigado por criar uma conta em nosso banco, sua agência é " + agenciaFormatada.insert(3, "-") + ", "+ "conta " + numero + " e seu saldo " + "R$"+ saldo + " já está disponível para saque.");
  
-		
+		entrada.close();
 	
 	}
 

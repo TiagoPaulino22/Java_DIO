@@ -21,23 +21,23 @@ Adicionei a tag **properties** do arquivo **pom.xml** a versão da openapi.
 Adicionei a dependência da **openapi** para acesso ao **Swagger**.
  
 
-	```
-	<dependency>
-	   <groupId>org.springdoc</groupId>
-	   <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-	   <version>${openapi.version}</version>
-	</dependency>	
-	```
+```
+<dependency>
+   <groupId>org.springdoc</groupId>
+   <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+   <version>${openapi.version}</version>
+</dependency>	
+```
 
 
 Adicionei a dependência do **Hibernate**, pois o Springboot estava pedindo.
 
-	```
-	<dependency>
-		<groupId>org.hibernate.validator</groupId>
-		<artifactId>hibernate-validator</artifactId>
-	</dependency>
-	```
+```
+<dependency>
+	<groupId>org.hibernate.validator</groupId>
+	<artifactId>hibernate-validator</artifactId>
+</dependency>
+```
 
 
 Modifiquei a porta do localhost para 1025, pois a 8080 estava ocupada no meu computador. </br>

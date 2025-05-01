@@ -53,7 +53,7 @@ Alguns imports tiveram que ser modificados como **jakarta** devido à versão do
 O programa funcionou perfeitamente após as modificações. Assim, foram feitos alguns testes no Swagger. </br>
 
 
-<img src= "/images/telaSwagger.png" /> 
+<img src= "/images/telaSwagger.jpg" /> 
 
 
 

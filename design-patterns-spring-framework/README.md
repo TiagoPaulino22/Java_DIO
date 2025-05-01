@@ -55,7 +55,6 @@ O programa funcionou perfeitamente após as modificações. Assim, foram feitos 
 
 <img src= "\images\telaSwagger.jpg" /> 
 
-![imagem]("/images/telaSwagger.jpg")
 
 
 

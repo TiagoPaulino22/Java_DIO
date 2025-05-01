@@ -15,7 +15,7 @@ Os dados usados como argumentos para prencher algumas posições inicias do tabu
 
 </br>
 
-##🔎 Outros links: </br>
+## 🔎 Outros links: </br>
 [Link para baixar o programa para fazer diagramas - draw.io](https://app.diagrams.net)
 
 

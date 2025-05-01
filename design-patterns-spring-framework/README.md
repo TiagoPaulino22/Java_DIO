@@ -13,7 +13,7 @@ Fiz algumas modificações no projeto para que ele pudesse rodar com o Java 21 e
 Adicionei a tag **properties** do arquivo **pom.xml** a versão da openapi.
 
 
-```xml
+```
 <openapi.version> 2.2.0 </openapi.version>
 ```
 		
@@ -21,7 +21,7 @@ Adicionei a tag **properties** do arquivo **pom.xml** a versão da openapi.
 Adicionei a dependência da **openapi** para acesso ao **Swagger**.
  
 
-	```xml
+	```
 	<dependency>
 	   <groupId>org.springdoc</groupId>
 	   <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
@@ -32,7 +32,7 @@ Adicionei a dependência da **openapi** para acesso ao **Swagger**.
 
 Adicionei a dependência do **Hibernate**, pois o Springboot estava pedindo.
 
-	```xml
+	```
 	<dependency>
 		<groupId>org.hibernate.validator</groupId>
 		<artifactId>hibernate-validator</artifactId>

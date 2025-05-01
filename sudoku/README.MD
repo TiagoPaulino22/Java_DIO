@@ -1,4 +1,4 @@
-# Desafio DIO criando um jogo do SUDOKU com Java. </br>
+# Desafio DIO: criando um jogo do SUDOKU com Java. </br>
 
 Esse desafio foi feito juntamente com o instrutor José Luiz, através das videoaulas . O repositório original pode ser acessado clicando [aqui](https://github.com/digitalinnovationone/sudoku). <br>
 

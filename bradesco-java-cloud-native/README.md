@@ -74,7 +74,14 @@ User "1" * -- "1" Card
 User "1" * -- "N" News
 ```
 
-Mesmo com todas as dependências corretas o Swagger não abria. 
+Foi incluída a configuração de porta no arquivo **application-dev.yml**. 
+
+```
+server:
+  port: 1023
+```
+
+Mesmo com todas as dependências corretas o Swagger não abria.  
 
 Pelo Eclipse, foi preciso limpar os arquivos de build e recompilar o projeto gradle seguindo os seguintes passos: 
 

@@ -1,6 +1,6 @@
 # Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework
 
-Esse projeto foi feito juntamente com o instrutor Venilton. O link para o projeto original pode ser acessao clicando [aqui](https://github.com/digitalinnovationone/lab-padroes-projeto-spring). </br>
+Esse projeto foi feito juntamente com o instrutor Venilton. O link para o projeto original pode ser acessado clicando [aqui](https://github.com/digitalinnovationone/lab-padroes-projeto-spring). </br>
 
 Nesse projeto, foram explorados três Design Patterns: 
 
@@ -10,7 +10,7 @@ Nesse projeto, foram explorados três Design Patterns:
 
 Fiz algumas modificações no projeto para que ele pudesse rodar com o Java 21 e o Springboot 3.4.5. 
 
-Adicionei a tag **properties** do arquivo **pom.xml** a versão da openapi.
+Adicionei na tag **properties** do arquivo **pom.xml** a versão da openapi.
 
 
 ```
@@ -56,5 +56,8 @@ O programa funcionou perfeitamente após as modificações. Assim, foram feitos 
 <img src= "\images\telaSwagger.jpg" /> 
 
 
-
+## 🔎 Links úteis:
+- [spring initializr](https://start.spring.io/)
+- [viaCep](https://viacep.com.br/)
+- [Gerar objetos Java com JSON](https://www.jsonschema2pojo.org/)
 

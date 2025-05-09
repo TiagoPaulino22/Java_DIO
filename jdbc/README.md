@@ -2,10 +2,10 @@
 
 Projeto realizado assistindo as videoaulas do instrutor José Luiz, no bootcamp Bradesco - Java Cloud Native. O projeto original pode ser acessado clicando [aqui](https://github.com/digitalinnovationone/jdbc-sample.git). 
 
-No projeto, foi realizada a persistência de dados no banco de dados MySQL e operações CRUD. Foram criadas duas tabelas: employees e employess_audit. 
+No projeto, foi realizada a persistência de dados no banco de dados MySQL e operações CRUD. Foram criadas duas tabelas: employees e employees_audit. 
 
 
-A tabela **employess_audit** grava o histórico de transações realizadas em **employees**. 
+A tabela **employees_audit** grava o histórico de transações realizadas em **employees**. 
 
 
 Tecnologias utilizadas: 

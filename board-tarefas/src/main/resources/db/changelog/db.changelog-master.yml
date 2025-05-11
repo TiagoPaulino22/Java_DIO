@@ -1,0 +1,4 @@
+# Tomarcuidado com a identação. No arquivo yml são usados dois espaço, não o tab. 
+databaseChangeLog:
+  - includeAll:
+      path: db/changelog/migrations

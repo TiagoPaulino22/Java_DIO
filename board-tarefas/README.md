@@ -7,7 +7,7 @@ Foram realizados os tratamentos de exceções e foi criada uma interface de usu�
 
 A figura abaixo mostra a interação com os menus da aplicação via console: 
 
-![console](images/console.PNG)
+![console](images/console.png)
 
 
 Abaixo encontra-se o diagrama de classes: 

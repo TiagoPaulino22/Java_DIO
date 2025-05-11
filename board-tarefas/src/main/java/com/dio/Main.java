@@ -1,9 +1,10 @@
 package com.dio;
 
 import com.dio.persistence.migration.MigrationStrategy;
+import static com.dio.persistence.config.ConnectionConfig.getConnection;
 import java.sql.SQLException;
 
-import static com.dio.persistence.config.ConnectionConfig.getConnection;
+import com.dio.ui.MainMenu;
 
 public class Main {
 
@@ -15,7 +16,7 @@ public class Main {
 			
 		}
 			
-		
+		new MainMenu().execute();
 	}
 
 }

@@ -23,7 +23,8 @@ public class MigrationStrategy {
 	
 	
     public void executeMigration(){
-    	System.out.println("Iniciando executeMigration()");
+    	 //Adiconado para verificação da execução das migrations
+    	System.out.println("Iniciando execução das migrations.");
         var originalOut = System.out;
         var originalErr = System.err;
         try(var fos = new FileOutputStream("liquibase.log")){
@@ -38,6 +39,7 @@ public class MigrationStrategy {
                         new ClassLoaderResourceAccessor(),
                         jdbcConnection);
                 liquibase.update();
+      
             } catch (LiquibaseException e) {
                 e.printStackTrace();
                 System.setErr(originalErr);
@@ -47,6 +49,9 @@ public class MigrationStrategy {
         } finally {
             System.setOut(originalOut);
             System.setErr(originalErr);
+           
+            //Adiconado para verificação da execução das migrations
+            System.out.println("Migrations executadas.\n");
         }
     }
 

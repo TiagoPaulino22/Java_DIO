@@ -7,12 +7,12 @@ Foram realizados os tratamentos de exceções e foi criada uma interface de usu�
 
 A figura abaixo mostra a interação com os menus da aplicação via console: 
 
-![console](images/console.png)
+![console](images/console.PNG)
 
 
 Abaixo encontra-se o diagrama de classes: 
 
-![diagrama de classes](images/board.PNG)
+![diagrama de classes](images/board.png)
 
 
 O projeto foi criado usando o SpringBoot. Abaixo é mostrada a configuração que foi usada: 
@@ -30,7 +30,7 @@ O projeto foi criado usando o SpringBoot. Abaixo é mostrada a configuração qu
 
 ### Melhorias 
 
-- Foram feitas algumas melhorias nas entradas dos scanners para corrigir alguns erros que estavam aparecendo devido ao uso do *nextInt*. 
+- Foram feitas algumas melhorias nas entradas dos scanners para corrigir alguns erros que estavam aparecendo devido ao uso do **nextInt**. 
 
 - Foram introduzidos dois prints para a visualizar e validar a execução das migrations via console. 
 
